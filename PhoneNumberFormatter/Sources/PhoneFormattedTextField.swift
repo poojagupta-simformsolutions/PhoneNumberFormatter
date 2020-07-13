@@ -11,7 +11,7 @@ import UIKit
 /**
  UITextField subclass to handle phone numbers formats
 */
-open public class PhoneFormattedTextField: UITextField {
+open class PhoneFormattedTextField: UITextField {
 
     private let formatProxy: FormattedTextFieldDelegate
     private let formatter: PhoneFormatter
